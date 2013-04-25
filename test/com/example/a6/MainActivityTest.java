@@ -1,4 +1,4 @@
-package com.exampl.a6;
+package com.example.a6;
 
 
 import org.junit.Assert;
@@ -9,9 +9,8 @@ import org.junit.runner.RunWith;
 import android.widget.Button;
 import android.widget.GridView;
 
-import com.example.a6.MainActivity;
-import com.example.a6.R;
-import com.xtremelabs.robolectric.RobolectricTestRunner;
+import org.robolectric.RobolectricTestRunner;
+
 @RunWith(RobolectricTestRunner.class)
 public class MainActivityTest {
     MainActivity mainActivity;
